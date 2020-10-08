@@ -1,0 +1,10 @@
+# Created By: Mariam Abugamga
+# Created on: oct, 8, 2020
+# This program uses a potentiometer
+from microbit import *
+
+
+while True:
+    potVal = pin1.read_analog()
+    display.show(potVal)
+    sleep(1000)
